@@ -13,6 +13,7 @@
 		92105FF02C969AF40040102B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92105FEF2C969AF40040102B /* RoundButton.swift */; };
 		92105FF22C969BC60040102B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92105FF12C969BC60040102B /* SignInView.swift */; };
 		921460B62C96CBA50099AA47 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 921460B52C96CBA50099AA47 /* CountryPicker */; };
+		921460B82C96CD700099AA47 /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921460B72C96CD700099AA47 /* CountryPickerUI.swift */; };
 		92A02BD72C91CF580077C15F /* GroceriesShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A02BD62C91CF580077C15F /* GroceriesShopApp.swift */; };
 		92A02BDB2C91CF5D0077C15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A02BDA2C91CF5D0077C15F /* Assets.xcassets */; };
 		92A02BDE2C91CF5D0077C15F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A02BDD2C91CF5D0077C15F /* Preview Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		92105FED2C9689DA0040102B /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		92105FEF2C969AF40040102B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		92105FF12C969BC60040102B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		921460B72C96CD700099AA47 /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
 		92A02BD32C91CF580077C15F /* GroceriesShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceriesShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A02BD62C91CF580077C15F /* GroceriesShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesShopApp.swift; sourceTree = "<group>"; };
 		92A02BDA2C91CF5D0077C15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				92105FED2C9689DA0040102B /* UIExtension.swift */,
 				92105FEF2C969AF40040102B /* RoundButton.swift */,
+				921460B72C96CD700099AA47 /* CountryPickerUI.swift */,
 			);
 			path = UiCommon;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921460B82C96CD700099AA47 /* CountryPickerUI.swift in Sources */,
 				92105FF02C969AF40040102B /* RoundButton.swift in Sources */,
 				92105FEA2C9687690040102B /* WelcomeView.swift in Sources */,
 				92105FEE2C9689DA0040102B /* UIExtension.swift in Sources */,
