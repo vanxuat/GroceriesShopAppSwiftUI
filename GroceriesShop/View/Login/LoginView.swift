@@ -59,21 +59,25 @@ struct LoginView: View {
                 .padding(.bottom, .screenWidth * 0.03)
                 
                 RoundButton(title: "Log In") {
-                    loginVM.serviceCalllLogin()
+                    loginVM.isUserLogin = true
+                    //loginVM.serviceCalllLogin()
                 }
                 .padding(.bottom, .screenWidth * 0.05)
                 
-                HStack {
-                    Text("Don't have an account?")
-                        .font(.customfont(.semibold, fontSize: 14))
-                        .foregroundColor(.primaryText)
-                    
-                    Text("Signup")
-                        .font(.customfont(.semibold, fontSize: 14))
-                        .foregroundColor(.primaryApp)
+                
+                NavigationLink {
+                    SignUpView()
+                } label: {
+                    HStack {
+                        Text("Don't have an account?")
+                            .font(.customfont(.semibold, fontSize: 14))
+                            .foregroundColor(.primaryText)
+                        
+                        Text("Signup")
+                            .font(.customfont(.semibold, fontSize: 14))
+                            .foregroundColor(.primaryApp)
+                    }
                 }
-                
-                
                
                 Spacer()
                 
@@ -113,5 +117,8 @@ struct LoginView: View {
 }
 
 #Preview {
-    LoginView()
+    NavigationView {
+        LoginView()
+    }
+    
 }
