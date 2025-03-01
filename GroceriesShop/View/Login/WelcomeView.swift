@@ -38,10 +38,15 @@ struct WelcomeView: View {
                 NavigationLink {
                     SignInView()
                 } label: {
-                    RoundButton(title: "Get Started") {
-                        
-                    }
+
+                    Text("Get Started")
+                        .font(.customfont(.semibold, fontSize: 18))
+                        .foregroundColor(.white)
+                        .multilineTextAlignment(.center)
                 }
+                .frame(minWidth: 0, maxWidth: .infinity,minHeight: 60, maxHeight: 60)
+                .background(Color.primaryApp)
+                .cornerRadius(20)
                
                 Spacer()
                     .frame(height: 100)
